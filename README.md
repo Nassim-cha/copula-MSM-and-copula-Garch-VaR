@@ -56,7 +56,7 @@ Adapt ValueAtRiskCalcualtion by using different models and copulas and the funct
     |    load_data.py
     ├── copulas/ # Copula inference and density calculation code 
         ├── gaussian/ 
-        |    gaussian.py
+        |    gaussian_estimation.py
         |    inference_for_margins.py
         |    opti.py
         ├── student/ 
@@ -80,7 +80,7 @@ Adapt ValueAtRiskCalcualtion by using different models and copulas and the funct
     |    optimize.py # find best parameters
     |    test.py # test model on market data
     ├── kalman_mean_reverting/ # In-sample estimation for Kalman model
-    |    generate.py # generate test data to test optimizer
+    |    generate_data.py # generate test data to test optimizer
     |    estimate.py # model estimation for given parameters
     |    forecast.py # calculate the volatility forecast
     |    optimize.py # find best parameters
